@@ -1220,15 +1220,21 @@ textarea {
   text-decoration: underline
 }
 
-.card_req-file object {
-  height: 400px
+
+.card_req-file embed {
+
+  height: 0;
+
 }
 
-@media screen and (min-width:64em) {
-  .card_req-file object {
-    height: auto
+
+@media screen and (min-width:700px) {
+  .card_req-file embed {
+    height: auto;
   }
 }
+
+
 
 .btn {
   display: inline-block;

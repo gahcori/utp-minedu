@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MINISTERIO DE EDUCACIÓN BOLIVIA - Unidad de Títulos Profesionales">
+  <title>MINISTERIO DE EDUCACIÓN BOLIVIA</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/logoUtp.png">
+  <link rel="shortcut icon" type="image/png" href="img/logoUtp.png">
+  <link rel="apple-touch-startup-image" href="img/logoUtp.png">
+  <link rel="apple-touch-icon" href="img/logoUtp.png">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+
+<body>
+  <!----CABECERA -->
+  <header id="header">
+    <section class="container flex-md jc-spaceAround p_5">
+      <div class="fr45 mauto md30 m0-md"><a href="index.html"><img src="img/logo-minedu-2023_5.png" alt="logo"></a></div>
+      <div class="flex-lg ai-center text-center hidden">
+        <p class="p1">Infomaciones <br><b>info@utprofesioanles.edu.bo</b></p>
+        <p class="p1">Teléfono de Oficina <br><b>(591-2) 2442144 Int:334 345</b></p>
+        <p class="p1">Horario De Atención <br><b>Lu-Vi: 7:30 am- 16:00 pm</b> </p>
+      </div>
+    </section>
+  </header>
+  <!---MENU-->
+  <nav id="nav-main" class="nav-main">
+    <div class="flex">
+      <div class="container-hamburger">
+        <button class="icon-menu hamburger hamburger--squeeze" type="button" id="icon-menu"><span
+            class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+      </div>
+      <ul id="menu" class="menu container">
+        <li class="menu-item"><a href="index.html" class="menu-link"><span class="icon-home"></span>INICIO</a></li>
+        <li class="menu-item"><a href="oficinas_dde.html" class="menu-link"><span class="icon-globe"></span>OFICINAS
+            DDE</a></li>
+        <li class="menu-item"><a href="formularios.html" class="menu-link"><span
+              class="icon-files"></span>FORMULARIOS</a></li>
+        <li class="menu-item"><a href="seguimiento.html" class="menu-link"><span
+              class="icon-interface"></span>SEGUIMIENTOS</a></li>
+        <!--<li class="menu-item"><a href="noticias.html" class="menu-link"><span class="icon-mobile"></span>NOTICIAS</a></li>-->
+        <li class="menu-item"><a href="siutip.html" class="menu-link"><span class="icon-male"></span>UTP</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!----SEGUIMIENTO -->
+  <section class="ptb1">
+    <article class="container p1">
+      <!----SEGUIMIENTO FORMULARIO -->
+      <form class="form fr70 md40 mauto">
+        <h3 class="form-title primary-color text-center mtb1">SEGUIMIENTO DE TRÁMITE</h3>
+        <div class="fr90 mauto p_5">
+          <label for="ci" class="fr100 flex ptb_5 primary-color text-bold">Documento de identidad C.I. Nº:</label>
+          <input class="text-center fr100" type="text" name="ci" id="ci" placeholder="Número de Carnet">
+        </div>
+        <div class="fr90 mauto p_5">
+          <label class="fr100 flex ptb_5 primary-color text-bold">Fecha de Nacimiento:</label>
+          <div class="flex-md jc-spaceAround">
+            <select class="fr100 mtb_5 md30" name="day" id="day">
+              <option value="0">-Día-</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+            </select>
+            <select class="fr100 mtb_5 md30" name="month" id="moth">
+              <option value="0">-Mes-</option>
+              <option value="1">Enero</option>
+              <option value="2">Febrero</option>
+              <option value="3">Marzo</option>
+              <option value="4">Abril</option>
+              <option value="5">Mayo</option>
+              <option value="6">Junio</option>
+              <option value="7">Julio</option>
+              <option value="8">Agosto</option>
+              <option value="9">Septiembre</option>
+              <option value="10">Octubre</option>
+              <option value="11">Noviembre</option>
+              <option value="12">Diciembre</option>
+            </select>
+            <select class="fr100 mtb_5 md30" name="year" id="year">
+              <option value="0">-Año-</option>
+              <option value="1">1980</option>
+              <option value="2">1981</option>
+              <option value="3">1982</option>
+              <option value="4">1983</option>
+              <option value="5">1984</option>
+              <option value="6">1985</option>
+              <option value="7">1986</option>
+              <option value="8">1987</option>
+              <option value="9">1988</option>
+              <option value="10">1989</option>
+              <option value="11">1990</option>
+              <option value="12">1991</option>
+              <option value="13">1992</option>
+              <option value="14">1993</option>
+              <option value="15">1994</option>
+              <option value="16">1995</option>
+              <option value="17">1996</option>
+              <option value="18">1997</option>
+              <option value="19">1998</option>
+              <option value="20">1999</option>
+              <option value="21">2000</option>
+              <option value="22">2001</option>
+              <option value="23">2002</option>
+              <option value="24">2003</option>
+              <option value="25">2004</option>
+              <option value="26">2005</option>
+              <option value="27">2006</option>
+              <option value="28">2007</option>
+              <option value="29">2008</option>
+              <option value="30">2009</option>
+              <option value="31">2010</option>
+              <option value="32">2011</option>
+              <option value="33">2012</option>
+              <option value="34">2013</option>
+              <option value="35">2014</option>
+              <option value="36">2015</option>
+              <option value="37">2016</option>
+              <option value="38">2017</option>
+              <option value="39">2018</option>
+              <option value="40">2019</option>
+              <option value="41">2020</option>
+            </select>
+          </div>
+        </div>
+        <div class="fr50 flex mauto jc-center p_5">
+          <div class="g-recaptcha" data-sitekey="6Lcjd30UAAAAAIWm....."></div>
+        </div>
+        <div class="fr50 flex mauto jc-center p_5"><button type="button" class="btn btn-primary">CONSULTAR</button>
+        </div>
+        <p class="text-center p_5 text-bold"><span class="primary-color">Nota:</span>En el campo C.I introduzca, sin
+          lugar de extensión</p>
+      </form>
+    </article>
+  </section>
+  <!---- PIE DE PAGINA -->
+  <footer class="footer">
+    <section class="container">
+      <article class="footer-section1 alt-color flex-container fr80 mauto p1">
+        <div class="footer-item">
+          <h4>CONTÁCTENOS</h4>
+          <div class="footer-description">
+            <p class="p_75"><span class="icon-email"></span> eramos@minedu.gob.bo</p>
+            <p class="p_75"><span class="icon-phone"></span>Teléfono: (591-2) 2442144 - 2442074</p>
+            <p class="p_75"><span class="icon-phone"></span>Interno 1: 334</p>
+            <p class="p_75"><span class="icon-phone"></span>Interno 2: 345</p>
+            <p class="p_75">Casilla de correo # 3116</p>
+          </div>
+        </div>
+        <div class="footer-item">
+          <h4>ENLACES DIRECTOS</h4>
+          <div class="footer-links">
+            <p><a href="oficinas_dde.html" class="footer-link p_75"><span class="icon-globe"></span>Oficinas DDE</a></p>
+            <p><a href="formularios.html" class="footer-link p_75"><span class="icon-files"></span>Formularios</a></p>
+            <p><a href="seguimiento.html" class="footer-link p_75"><span class="icon-interface"></span>Seguimientos</a>
+            </p>
+          </div>
+        </div>
+        <!--<div class="footer-item">
+          <h4>Siguenos</h4>
+          <div class="footer-links">
+            <a href="" class="footer-link p_75">Facebook</a>
+            <a href="" class="footer-link p_75">YouTube</a>
+          </div>
+        </div>-->
+      </article>
+    </section>
+    <section class="footer-section2 alt-color p1 text-center">
+      <p class="fr80 mauto"><small>Ministerio de Educación | Dirección Avenida Arce Nro. 2147, La Paz - Bolivia |
+          Teléfono (591 -2) 2442144 | Linea Gratuita 800-10-0050<br>Unidad de Títulos Profesionales | Interno 1: 334 |
+          Interno 2: 345 | Casilla de correo # 3116<br>  © Todos los derechos reservados UTP 2023</small></p>
+    </section>
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

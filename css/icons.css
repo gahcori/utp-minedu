@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "icon-tup";
+  src:url("../fonts/icon-tup.eot");
+  src:url("../fonts/icon-tup.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/icon-tup.woff") format("woff"),
+    url("../fonts/icon-tup.ttf") format("truetype"),
+    url("../fonts/icon-tup.svg#icon-tup") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "icon-tup" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "icon-tup" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-male:before {
+  content: "\66";
+}
+.icon-graduation:before {
+  content: "\67";
+}
+.icon-laptop:before {
+  content: "\69";
+}
+.icon-globe:before {
+  content: "\6a";
+}
+.icon-interface:before {
+  content: "\6b";
+}
+.icon-location:before {
+  content: "\6c";
+}
+.icon-home:before {
+  content: "\6e";
+}
+.icon-files:before {
+  content: "\6f";
+}
+.icon-email:before {
+  content: "\6d";
+}
+.icon-phone:before {
+  content: "\71";
+}
+.icon-up:before {
+  content: "\72";
+}
+.icon-right:before {
+  content: "\73";
+}
+.icon-left:before {
+  content: "\74";
+}
+.icon-down:before {
+  content: "\75";
+}
+.icon-download:before {
+  content: "\76";
+}
+.icon-mobile:before {
+  content: "\77";
+}

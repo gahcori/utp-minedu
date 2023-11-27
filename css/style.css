@@ -858,7 +858,7 @@ textarea {
 
 .p1 {
   padding: 16px;
-  padding: 1rem;
+  padding: 1rem
 }
 
 .ptb1 {
@@ -1220,21 +1220,15 @@ textarea {
   text-decoration: underline
 }
 
-
-.card_req-file embed {
-
-  height: 0;
-
+.card_req-file object {
+  height: 400px
 }
 
-
-@media screen and (min-width:700px) {
-  .card_req-file embed {
-    height: auto;
+@media screen and (min-width:64em) {
+  .card_req-file object {
+    height: auto
   }
 }
-
-
 
 .btn {
   display: inline-block;
